@@ -1,0 +1,464 @@
+* {
+    font-family: 'Questrial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #999;
+    font-size: 14pt;
+    line-height: 20pt;
+}
+
+
+div#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    z-index: 2;
+    vertical-align: middle;
+    background: url(top-gradient.png) repeat-x;
+}
+
+div#navbar-content {
+    width: 800px;
+    margin: 0 auto 0 auto;
+    height: 60px;
+    line-height: 40px;
+}
+
+div#navbar a {
+    display: inline-block;
+    margin-right: 40px;
+    color: #AAA;
+    text-decoration: none;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+div#navbar a.social {
+    display: block;
+    float: right;
+    margin-right: 26px;
+    margin-top: 10px;
+    color: #AAA;
+    width: 1px;
+}
+
+div#navbar a:hover {
+    color: #DDD;
+}
+
+body {
+    background-color: black;
+}
+
+div#hero-container {
+    float: left;
+    margin: 32px auto 0 auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+div#hero-container img#hero {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+div#release-date-cont {
+    width: 100%;
+    margin 0 auto 0 auto;
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+}
+
+div#release-date-cont a {
+    font-size: 14px;
+    color: #EDEDED;
+    background-color: #333;
+    padding: 4px 8px;
+    min-width: 140px;
+    text-decoration: none;
+    border: 1px solid #666;
+    font-weight: bold;
+    width: 10%;
+    display: inline-block;
+}
+
+
+img#release-date {
+    width: 20%;
+    position: absolute;
+    top: -28px;
+    z-index: 55;
+    left: 360px;
+}
+
+div#main-container {
+    width: 900px;
+    margin: 0 auto 0 auto;
+    background-color: #111;
+}
+div#main-content {
+    width: 778px;
+    min-height: 400px;
+    margin-top: -100px;
+    padding: 0px 60px 60px 60px;
+    border: 1px solid #222;
+    position: relative;
+}
+
+div .section {
+    display: block;
+    padding: 20px 0px 20px 0px;
+}
+
+div .section .header {
+    text-align: center;
+    margin: 20px 0px 50px 0px;
+}
+
+div .section .header h2 {
+    color: #DDD;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18pt;
+    display: inline-block;
+    margin: 0 14px 0 14px;
+}
+
+div .section .header img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 9px;
+    width: 30%;
+}
+
+div#platforms {
+    display: block;
+    text-align: center;
+    padding: 28px 16px 12px 16px;
+    width: 100%;
+    margin-top: -40px;
+}
+
+div#platforms.left {
+    float: left;
+    width: 370px;
+    padding-left: 0px;
+    margin-left: -36px;
+    padding-top: 18px;
+}
+
+div#platforms.right{
+    float: right;
+    width: 440px;
+    padding-right: 0px;
+    margin-right: -28px;
+    padding-top: 18px;
+}
+
+div#platforms.right.logo,
+div#platforms.left.logo {
+    height: 26px;
+    border-bottom: 1px solid #444;
+    padding: 0px;
+    margin-top: -70px;
+}
+
+div#platforms a {
+    text-decoration: none;
+}
+
+div#platforms div#buy-direct {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    background-color: #444;
+    background-color: #a63434;
+    padding: 8px;
+    border: 2px solid #666;
+    border: 2px solid #c14d4d;
+    border-radius: 6px;
+    margin-right: 8px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+div#platforms div#buy-direct div.xpay2play-widget-simple,
+div#platforms div#buy-direct div.xpay2play-widget-simple-button-block,
+div#platforms div#buy-direct div.xpay2play-widget-simple-payment-button,
+div#platforms div#buy-direct span.xpay2play-widget-simple-payment-button-amount,
+div#platforms div#buy-direct span.xpay2play-widget-simple-payment-button-amount span.translate-message,
+div#platforms div#buy-direct span.xpay2play-widget-simple-payment-button-amount span.translate-message-amount,
+div#platforms div#buy-direct span.xpay2play-widget-simple-payment-button-amount span
+ {
+    display: inline;
+}
+
+div#platforms div#buy-direct span.xpay2play-widget-simple-payment-button-amount span.translate-message-amount span.formatted-currency {
+    display: none;
+}
+
+div#platforms div#buy-direct span.formatted-currency,
+div#platforms div#buy-direct span.translate-message {
+    color: #EDEDED;
+    line-height: 30px;
+    display: inline;
+    font-size: 11pt;
+    font-weight: bold;
+}
+
+div#platforms img {
+    display: inline-block;
+    margin-right: 8px;
+    width: auto;
+    height: 30px;
+    background-color: #444;
+    padding: 8px;
+    border: 2px solid #666;
+    border-radius: 6px;
+}
+div#platforms img.last {
+    margin-right: 0px;
+}
+
+div#platforms img#os-logos {
+    display: inline-block;
+    margin-right: 8px;
+    width: auto;
+    height: 20px;
+    padding: 0px;
+    line-height: 20px;
+    margin-top: 16px;
+    background-color: #111;
+    border: none;
+}
+
+div#main-content div#first-section.section {
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+div.section #trailer {
+    width: 700px;
+    display: block;
+    border: 4px solid #222;
+    margin: 20px auto 0px auto;
+}
+
+div.section .left-section {
+    width: 440px;
+    display: block;
+    float: left;
+}
+
+div.section .left-section {
+    width: 440px;
+    display: block;
+    float: left;
+}
+
+div.section .right-section {
+    width: 300px;
+    display: block;
+    float: right;
+    margin-top: 40px;
+}
+
+div.section div.subtext {
+    margin: 0 auto 0 auto;
+    width: 640px;
+}
+
+div.section .section-img {
+    width: 700px;
+    display: block;
+    margin: 0 auto 40px auto;
+    border: 4px solid #222;
+}
+
+div#legal.section {
+    font-size: 9pt;
+    text-align: center;
+    color: #888;
+    line-height: 10pt;
+}
+
+div#legal.section img#esrb {
+    width: 180px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+div#legal.section img#pegi {
+    width: 68px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+div#legal.section img#cero {
+    width: 68px;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+div#team.section {
+    text-align: center;
+}
+
+div#team.section img#c99-logo {
+    display: block;
+    margin: 0 auto 40px auto;
+}
+
+div#newsletter.section {
+    border-bottom: 1px solid #444;
+    margin-bottom: 30px;
+}
+
+
+div.clear {
+    clear: both;
+}
+
+div#newsletter-prompt {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0px 0 4px 0;
+    color: #999;
+}
+
+div#mc_embed_signup {
+    width: 446px;
+    margin: auto auto;
+    margin-bottom: 50px;
+}
+
+.mc-field-group label {
+    font-family: 'Questrial', sans-serif;
+    margin-right: 10px;
+    display: block;
+    float: left;
+    line-height: 32px;
+}
+
+div.mc-field-group {
+    float: left;
+}
+
+div.mc-field-group input#mce-EMAIL {
+    float: left;
+    display: block;
+    height: 30px;
+    color: #BBB;
+    padding-left: 14px;
+    width: 210px;
+    margin-left: 46px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    border: 0px;
+    background-color: black;
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+div.mc-field-group input#mce-EMAIL.inactive {
+    color: #666;
+}
+
+div.mc-field-group textarea:focus, input:focus{
+    outline: 0;
+}
+
+input#mc-embedded-subscribe.button {
+    display: block;
+    float: left;
+    color: #CCC;
+    margin-left: 10px;
+    padding: 4px;
+    width: 80px;
+    height: 27px;
+    background-color: #444;
+    font-weight: bold;
+    font-family: 'Questrial', sans-serif;
+    font-size: 10pt;
+    border: 0px;
+    border-top: 2px solid #5f6267;
+    border-bottom: 3px solid #2f333e;
+    line-height: 10px;
+}
+
+div#xsolla {
+    vertical-align: middle;
+    width: 320px;
+    height: 45px;
+    margin: 10px 0 0 0;
+    background-color: #222;
+    display: block;
+    text-align: left;
+}
+
+div#xsolla img {
+    width: 45px;
+    height: 45px;
+    display: block;
+    float: left;
+}
+
+div#xsolla div {
+    width: 240px;
+    display: block;
+    padding: 4px 10px 4px 15px;
+    line-height: 14pt;
+    color: #828282;
+    font-size: 12px;
+    float: left;
+}
+
+#main-container div#main-content.blog-main {
+    margin-top: -50px;
+}
+
+div.section div.subtext.blog-subtext {
+    font-size: 12pt;
+}
+
+li a {
+    font-size: 12pt;
+    font-weight: bold;
+}
+li { font-size: 12pt; }
+ul { margin: 10px 0px 10px 24px; }
+ul ul {
+    margin: 10px 0px 10px 40px;
+    list-style-type: square;
+}
+
+span.section-footer {
+    border-bottom: 12px solid #343434;
+    width: 100%;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+span.change-log-header {
+    color: #BBB;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.disclaimer {
+    font-size: 11pt;
+}
